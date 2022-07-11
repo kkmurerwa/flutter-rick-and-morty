@@ -1,4 +1,4 @@
-import 'package:rickandmortytest/model/character.dart';
+import 'package:rickandmortytest/domain/model/character.dart';
 
 class ResponseResult {
 

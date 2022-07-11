@@ -1,5 +1,6 @@
-import 'package:rickandmortytest/model/response_info.dart';
-import 'package:rickandmortytest/model/response_result.dart';
+
+import 'package:rickandmortytest/domain/model/response_info.dart';
+import 'package:rickandmortytest/domain/model/response_result.dart';
 
 class CharactersResponse {
 

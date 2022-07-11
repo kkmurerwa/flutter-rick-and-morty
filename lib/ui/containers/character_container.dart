@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../model/character.dart';
-import '../utils/colors.dart';
-import '../utils/constants.dart';
+import 'package:rickandmortytest/domain/model/character.dart';
+import 'package:rickandmortytest/utils/colors.dart';
+import 'package:rickandmortytest/utils/constants.dart';
 
 class CharacterContainer {
 

@@ -1,13 +1,10 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:rickandmortytest/containers/character_container.dart';
-import 'package:rickandmortytest/model/characters_response.dart';
-import 'package:rickandmortytest/network/urls.dart';
-
-import '../model/character.dart';
-import '../network/api_client.dart';
-import '../utils/utils.dart';
+import 'package:rickandmortytest/data/network/api_client.dart';
+import 'package:rickandmortytest/data/network/urls.dart';
+import 'package:rickandmortytest/domain/model/character.dart';
+import 'package:rickandmortytest/domain/model/characters_response.dart';
+import 'package:rickandmortytest/ui/containers/character_container.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
